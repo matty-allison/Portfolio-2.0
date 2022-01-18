@@ -26,23 +26,23 @@
                             },
                             onHover: {
                                 enable: true,
-                                mode: 'repulse'
+                                mode: 'bubble'
                             },
                             resize: true
                         },
                         modes: {
                             bubble: {
-                                distance: 400,
-                                duration: 2,
-                                opacity: 0.8,
-                                size: 40
+                                distance: 300,
+                                duration: 1,
+                                opacity: 0.2,
+                                size: 20
                             },
                             push: {
                                 quantity: 4
                             },
                             repulse: {
-                                distance: 200,
-                                duration: 0.4
+                                distance: 100,
+                                duration: 0.3
                             }
                         }
                     },

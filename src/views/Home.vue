@@ -4,7 +4,7 @@
     <div class="landing">
     <img src="../assets/homeImage.jpg" alt="Picture of Matthew Allison">
     <h1>Matthew Allison</h1>
-    <h2>Junior Fullstack Developer</h2>
+    <h2>Aspiring Fullstack Developer</h2>
     </div>
   </div>
 </template>
@@ -27,6 +27,10 @@ export default {
   flex-direction: column;
   gap: 25px;
   font-size: 20px;
+}
+
+.landing h1, h2 {
+  text-shadow: 0px 5px 25px gold
 }
 
 #home img {
