@@ -66,6 +66,7 @@ export default {
   border-radius: 15px;
   width: 50%;
   height: 95%;
+  border: solid 2px #abd7eb;
   box-shadow: 2px 2px 15px gold;
 }
 </style>

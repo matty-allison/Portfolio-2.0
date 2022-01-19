@@ -29,7 +29,7 @@ export default {
   font-size: 20px;
 }
 
-.landing h1, h2 {
+.landing h1, .landing h2 {
   text-shadow: 0px 5px 25px gold
 }
 
@@ -37,6 +37,7 @@ export default {
   width: 20vw;
   height: 40vh;
   margin: 2%;
+  border: solid 2px #abd7eb;
   border-radius: 50%;
   box-shadow: 0 5px 25px gold;
 }
