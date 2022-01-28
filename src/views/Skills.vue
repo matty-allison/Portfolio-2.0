@@ -79,4 +79,28 @@ export default {
 .subject {
   font-size: 23px;
 }
+
+@media (max-width: 1366px) {
+  #skills {
+  top: 17%;
+  right: 12%;
+  width: 70%;
+  height: 58%;
+  padding: 3%;
+  }
+
+  .edu1 {
+  font-size: 14px;
+  gap: 10px;
+  }
+
+  .edu2 {
+  font-size: 14px;
+  gap: 10px;
+  }
+
+  .subject {
+  font-size: 14px;
+  }
+}
 </style>

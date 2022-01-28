@@ -44,4 +44,15 @@
   background: gold;
   box-shadow: 0 5px 25px gold;
 }
+
+@media (max-width: 1366px) {
+  #nav {
+  padding: 25px;
+  gap: 15px;
+  }
+
+  #nav a {
+  padding: 8px;
+  }
+}
 </style>

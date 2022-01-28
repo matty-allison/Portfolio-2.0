@@ -17,7 +17,7 @@
                             value: '#000000'
                         }
                     },
-                    fpsLimit: 60,
+                    fpsLimit: 120,
                     interactivity: {
                         events: {
                             onClick: {

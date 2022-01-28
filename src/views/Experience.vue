@@ -43,10 +43,10 @@
         LC Studio is Life Choices in house Coding team that students of the academy go after finishing the course to obtain experience and learn more. 
       </q>
     </div>
-  </div>
   <div class="container">
     <div class="line"></div>
     <div class="arrow"><i class="fas fa-caret-down"></i></div>
+  </div>
   </div>
 </template>
 
@@ -158,5 +158,67 @@ export default {
   font-size: 20px;
   color: #abd7eb;
   text-shadow: 0 2px 10px gold;
+}
+@media (max-width: 1366px) {
+  #experience {
+  font-size: 13px;
+  top: 16%;
+  right: 8%;
+  width: 75%;
+  height: 65%;
+  padding: 2% 5%;
+  grid-row-gap: 10px;
+  }
+
+  .Box1 {
+  grid-area: first;
+  padding: 6px;
+  gap: 20px;
+  }
+
+  .Box2 {
+  grid-area: second;
+  padding: 6px;
+  gap: 20px;
+  }
+
+  .Box3 {
+  grid-area: third;
+  padding: 6px;
+  gap: 20px;
+  }
+
+  .Box4 {
+  grid-area: fourth;
+  padding: 6px;
+  gap: 20px;
+  }
+
+  .Box5 {
+  grid-area: fifth;
+  padding: 6px;
+  gap: 20px;
+  }
+
+  .container {
+  position: fixed;
+  z-index: 100;
+  bottom: 42%;
+  right: 50%;
+  width: 10px;
+  height: 38vh;
+  }
+  .line {
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 10px gold;
+  border: 1px solid #abd7eb;
+  width: 100%;
+  height: 98%;
+  }
+  .arrow {
+  font-size: 20px;
+  color: #abd7eb;
+  text-shadow: 0 2px 10px gold;
+  }
 }
 </style>

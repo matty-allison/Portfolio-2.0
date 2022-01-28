@@ -34,4 +34,10 @@ export default {
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 1366px) {
+  #footer {
+    font-size: 14px;
+  }
+}
 </style>

@@ -24,7 +24,7 @@
         one day.
       </p>
     </div>
-    <img src="../assets/aboutImage.jpg" alt="Picture of Matthew Allison">
+    <img src="../assets/aboutImage-min.jpg" alt="Picture of Matthew Allison">
   </div>
 </template>
 
@@ -68,5 +68,27 @@ export default {
   height: 95%;
   border: solid 2px #abd7eb;
   box-shadow: 2px 2px 15px gold;
+}
+
+@media (max-width: 1366px) {
+  #about {
+  top: 16%;
+  right: 11%;
+  width: 65%;
+  height: 50%;
+  padding: 5%;
+  gap: 7%; 
+  }
+  
+  #about div {
+  font-size: 14px;
+  gap: 20px;
+  height: 100%;
+  }
+
+  #about img {
+  width: 45%;
+  height: 95%;
+  }
 }
 </style>
